@@ -1,0 +1,9 @@
+[gd_resource type="TileSet" load_steps=3 format=3 uid="uid://cshkw8f6f4r5h"]
+
+[ext_resource type="PackedScene" uid="uid://u2m5v5ht05hx" path="res://scenes/building/house.tscn" id="1_lnxvk"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_b7r2u"]
+scenes/1/scene = ExtResource("1_lnxvk")
+
+[resource]
+sources/0 = SubResource("TileSetScenesCollectionSource_b7r2u")

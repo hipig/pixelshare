@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baj5htyfvo0up"
-path="res://.godot/imported/Game_Maker_Studio_Autotiles_Singles_16x16_13.png-87f03d1347d1a08ed5ac49f9823f3d9b.ctex"
+uid="uid://ckhde3wkt6ekh"
+path="res://.godot/imported/Interior Pack.png-425c7ddf60c8f0c94d6d51212b986f53.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/textures/ground/Game_Maker_Studio_Autotiles_Singles_16x16_13.png"
-dest_files=["res://.godot/imported/Game_Maker_Studio_Autotiles_Singles_16x16_13.png-87f03d1347d1a08ed5ac49f9823f3d9b.ctex"]
+source_file="res://assets/textures/interior/Interior Pack.png"
+dest_files=["res://.godot/imported/Interior Pack.png-425c7ddf60c8f0c94d6d51212b986f53.ctex"]
 
 [params]
 
