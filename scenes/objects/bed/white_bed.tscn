@@ -1,0 +1,21 @@
+[gd_scene load_steps=5 format=3 uid="uid://bgdur6vre0qs7"]
+
+[ext_resource type="Script" uid="uid://bt6vqb0xy57wv" path="res://scripts/objects/bed.gd" id="1_ki3wf"]
+[ext_resource type="TileSet" uid="uid://b15m5aopvkjd3" path="res://tilesets/interior.tres" id="1_kkfh8"]
+[ext_resource type="PackedScene" uid="uid://brygm4q1ebm1j" path="res://scenes/component/InteractableArea.tscn" id="3_35b54"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ffq4b"]
+radius = 13.0
+height = 38.0
+
+[node name="WhiteBed" type="Node2D"]
+script = ExtResource("1_ki3wf")
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray(0, 0, 255, 255, 255, 255, 1, 0, 0, 0, 13, 0, 0, 0)
+tile_set = ExtResource("1_kkfh8")
+
+[node name="InteractableArea" parent="." instance=ExtResource("3_35b54")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="InteractableArea"]
+shape = SubResource("CapsuleShape2D_ffq4b")
